@@ -1,0 +1,819 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Rou",
+				"Route::get\tBasic Get Route."
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"tipo",
+				"tipo_comprobante"
+			],
+			[
+				"fe",
+				"fecha_hora"
+			],
+			[
+				"_",
+				"_GET"
+			],
+			[
+				"detalle",
+				"detalles"
+			],
+			[
+				"sub",
+				"subtotal"
+			],
+			[
+				"get",
+				"getElementByName"
+			],
+			[
+				"su",
+				"subtotal"
+			],
+			[
+				"co",
+				"colspan\tAttr"
+			],
+			[
+				"prec",
+				"precio_compra"
+			],
+			[
+				"pre",
+				"precio_compra"
+			],
+			[
+				"ar",
+				"articulo"
+			],
+			[
+				"i",
+				"impuesto"
+			],
+			[
+				"to",
+				"tipo_comprobante"
+			],
+			[
+				"total",
+				"total_compra"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"prcio",
+				"precio_compra"
+			],
+			[
+				"id",
+				"idarticulo"
+			],
+			[
+				"session_d",
+				"session_destroy"
+			],
+			[
+				"unset",
+				"session_unset"
+			],
+			[
+				"ob_en",
+				"ob_end_flush"
+			],
+			[
+				"sessio",
+				"session_start"
+			],
+			[
+				"session",
+				"session_destroy"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"c",
+				"clavehash"
+			],
+			[
+				"idu",
+				"idusuario"
+			],
+			[
+				"sql",
+				"sql_detalle"
+			],
+			[
+				"nu",
+				"num_elementos"
+			],
+			[
+				"idusuario",
+				"idusuarionew"
+			],
+			[
+				"cla",
+				"clave"
+			],
+			[
+				"ma",
+				"maxlength\tAttr"
+			],
+			[
+				"tipo_do",
+				"tipo_documento"
+			],
+			[
+				"bn",
+				"bd-n\tborder: none;"
+			],
+			[
+				"C",
+				"Categoría"
+			],
+			[
+				"A",
+				"Artículos"
+			],
+			[
+				"ima",
+				"imagenactual"
+			],
+			[
+				"imagen",
+				"imagenmuestra"
+			],
+			[
+				"mostarr",
+				"mostrarForm"
+			],
+			[
+				"for",
+				"formData"
+			],
+			[
+				"des",
+				"descripcion"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"s",
+				"sql"
+			],
+			[
+				"con",
+				"conexion"
+			],
+			[
+				"tr",
+				"triangulo1"
+			],
+			[
+				"tri",
+				"triangulo"
+			],
+			[
+				"texto",
+				"texto-especialidad"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"get_comment",
+				"get_comments"
+			],
+			[
+				"is_acti",
+				"is_active_sidebar"
+			],
+			[
+				"bo",
+				"bounds"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"wp_get_attachment_i",
+				"wp_get_attachment_image_src"
+			],
+			[
+				"the_ti",
+				"the_title"
+			],
+			[
+				"wp_reset",
+				"wp_reset_postdata"
+			],
+			[
+				"the_p",
+				"the_post"
+			],
+			[
+				"get_template",
+				"get_template_directory_uri"
+			],
+			[
+				"com",
+				"coment\tcomentario"
+			],
+			[
+				"bd",
+				"border"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Post.php",
+			"settings":
+			{
+				"buffer_size": 332,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/inicio.blade.php",
+			"settings":
+			{
+				"buffer_size": 1770,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/PLANTILLAS HTML/blog/blanca/index.html",
+			"settings":
+			{
+				"buffer_size": 29934,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/front/template.blade.php",
+			"settings":
+			{
+				"buffer_size": 23024,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "routes/web.php",
+			"settings":
+			{
+				"buffer_size": 450,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/admin.blade.php",
+			"settings":
+			{
+				"buffer_size": 71,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "i",
+		"selected_items":
+		[
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"f",
+				"Fetch: File"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/bloglaravel",
+		"/C/xampp/htdocs/bloglaravel/public",
+		"/C/xampp/htdocs/bloglaravel/public/frontTheme",
+		"/C/xampp/htdocs/bloglaravel/resources",
+		"/C/xampp/htdocs/bloglaravel/resources/views",
+		"/C/xampp/htdocs/bloglaravel/resources/views/front"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/bloglaravel/resources/views/admin/template.blade.php",
+		"/C/xampp/htdocs/bloglaravel/database/seeds/PostsTableSeeder.php",
+		"/C/xampp/htdocs/bloglaravel/resources/views/inicio.blade.php",
+		"/C/xampp/htdocs/bloglaravel/database/migrations/2018_04_08_231211_create_categorias_table.php",
+		"/C/xampp/htdocs/bloglaravel/database/migrations/2018_04_09_160459_create_post_tag_table.php",
+		"/C/xampp/htdocs/bloglaravel/database/migrations/2018_04_09_160146_create_post_tag_table.php",
+		"/C/xampp/htdocs/bloglaravel/database/migrations/2018_04_09_155516_create_tags_table.php",
+		"/C/xampp/htdocs/bloglaravel/database/seeds/DatabaseSeeder.php",
+		"/C/xampp/htdocs/bloglaravel/routes/web.php",
+		"/C/xampp/htdocs/bloglaravel/database/migrations/2018_04_07_195946_create_posts_table.php",
+		"/C/xampp/htdocs/bloglaravel/app/Post.php",
+		"/C/xampp/htdocs/pblog/database/migrations/2018_04_07_213110_create_posts_table.php",
+		"/C/xampp/htdocs/pblog/app/Providers/AppServiceProvider.php",
+		"/C/xampp/htdocs/pblog/.env",
+		"/C/xampp/htdocs/syngenta/resources/TEMA ORIGINAL/index.html",
+		"/C/xampp/htdocs/syngenta/resources/views/template.blade.php",
+		"/U/Contraseña.txt",
+		"/C/xampp/htdocs/curso_laravel/sitioWeb/resources/views/template.blade.php",
+		"/C/xampp/htdocs/curso_laravel/sistema/routes/web.php",
+		"/C/xampp/htdocs/curso_laravel/sitioWeb/resources/views/nosotros.blade.php",
+		"/C/xampp/htdocs/curso_laravel/sistema/resources/views/servicios.blade.php",
+		"/C/xampp/htdocs/curso_laravel/sistema/resources/views/contacto.blade.php",
+		"/C/xampp/htdocs/curso_laravel/sistema/resources/views/template.blade.php",
+		"/C/xampp/htdocs/curso_laravel/sistema/resources/views/nosotros.blade.php",
+		"/C/xampp/htdocs/curso_laravel/sitioWeb/resources/views/inicio.blade.php",
+		"/C/xampp/htdocs/curso_laravel/sistema/resources/views/inicio.blade.php",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/xampp/htdocs/curso_laravel/sitioWeb/resources/views/contacto.blade.php",
+		"/C/xampp/htdocs/curso_laravel/sitioWeb/resources/views/servicios.blade.php",
+		"/E/1A/PROYECTOS/2017/ITPSAS/datos.txt",
+		"/E/1A/PROYECTOS/2017/DISEÑO TRAZOS Y MADERA/datos2017.txt",
+		"/E/1A/PROYECTOS/2018/FLEXIBAG/datos.txt",
+		"/E/BOGOTA_WEB_COMPANY/paleta colores.txt",
+		"/E/1A/PROYECTOS/2017/ESVECOREAL/datos.txt",
+		"/C/xampp/htdocs/udemy_php7/ajax/articulo.php",
+		"/C/xampp/htdocs/udemy_php7/vistas/leftSidebar.php",
+		"/C/xampp/htdocs/udemy_php7/vistas/venta_v.php",
+		"/C/xampp/htdocs/udemy_php7/modelos/venta_m.php",
+		"/C/xampp/htdocs/udemy_php7/vistas/scripts/cliente.js",
+		"/C/xampp/htdocs/udemy_php7/vistas/cliente_v.php",
+		"/C/xampp/htdocs/udemy_php7/modelos/Persona_m.php",
+		"/E/BOGOTA_WEB_COMPANY/datos_bwc.txt",
+		"/C/xampp/htdocs/bwc/wp-content/themes/CHULETAS/WP/htacces/htaccess.txt",
+		"/U/installer (1).php",
+		"/E/1A/COTIZACIONES/2017/MARZO/Katherine Fandiño - Diseño de interiores/Katherine Fandiño - Diseño de interiores.txt",
+		"/E/1A/COTIZACIONES/2017/MARZO/Katherine Fandiño - Diseño de interiores/Katherine Fandiño - Diseño de interiores1.txt",
+		"/F/Documents/MIS CORREOS.txt",
+		"/F/Documents/datos correo pruebas.txt",
+		"/F/Documents/correos.txt",
+		"/F/Documents/correo_Hernando_Chaves.txt",
+		"/C/Program Files (x86)/IObit/IObit Uninstaller/History.txt",
+		"/E/BOGOTA_WEB_COMPANY/dns bwc.txt",
+		"/C/xampp/htdocs/udemy_php7/vistas/ingreso_v.php",
+		"/C/xampp/htdocs/udemy_php7/ajax/ingreso.php",
+		"/C/xampp/htdocs/udemy_php7/vistas/scripts/ingreso.js",
+		"/C/xampp/htdocs/udemy_php7/modelos/Ingreso_m.php",
+		"/C/xampp/htdocs/udemy_php7/modelos/Permiso_m.php",
+		"/F/Documents/datos mega descarcgas.txt",
+		"/E/1A/DATOS.txt",
+		"/E/1A/COTIZACIONES/2018/3- MARZO/MARISOL -TIENDA MUEBLES/datos.txt",
+		"/U/TMP/tmp/templates/content-product.php",
+		"/U/TMP/tmp/templates/loop/result-count.php",
+		"/U/TMP/tmp/templates/loop/loop-end.php",
+		"/U/TMP/tmp/templates/loop/loop-start.php",
+		"/C/xampp/htdocs/curso_laravel/sitioWeb/resources/views/errors/404.blade.php",
+		"/C/xampp/htdocs/curso_laravel/website/routes/web.php",
+		"/C/xampp/htdocs/curso_laravel/website/resources/views/template.blade.php",
+		"/C/xampp/htdocs/curso_laravel/website/resources/views/servicios.blade.php",
+		"/C/xampp/htdocs/curso_laravel/website/resources/views/nosotros.blade.php",
+		"/C/xampp/htdocs/curso_laravel/website/resources/views/inicio.blade.php",
+		"/C/xampp/htdocs/curso_laravel/website/resources/views/contacto.blade.php",
+		"/C/xampp/htdocs/curso_laravel/website/resources/views/inicio.balade.php",
+		"/C/xampp/htdocs/curso_laravel/website/resources/views/contacto.balade.php",
+		"/C/xampp/htdocs/curso_laravel/website/resources/views/servicios.balade.php",
+		"/C/xampp/htdocs/curso_laravel/website/resources/views/nosotros.balade.php",
+		"/C/xampp/htdocs/curso_laravel/primer_app_laravel/routes/web.php",
+		"/C/xampp/htdocs/udemy_php7/vistas/subheader.php",
+		"/C/xampp/htdocs/udemy_php7/tema original/dist/default/components/base/modal.html",
+		"/E/1A/PROYECTOS/2018/MILENNIAN/datos.txt",
+		"/E/1A/PROYECTOS/2018/MILENNIAN/datos_cliente.txt",
+		"/U/JD/firma JD.html",
+		"/E/1A/PROYECTOS/2018/MILENNIAN/VIDEO/PREMIER/DERECHOS.txt",
+		"/U/serial.txt",
+		"/C/xampp/htdocs/udemy_app_seguras/views/modulos/contacto.php",
+		"/C/xampp/htdocs/udemy_app_seguras/views/modulos/servicios.php",
+		"/C/xampp/htdocs/udemy_app_seguras/views/modulos/nosotros.php",
+		"/C/xampp/htdocs/udemy_app_seguras/views/modulos/head.php",
+		"/C/xampp/htdocs/udemy_app_seguras/views/style.css",
+		"/C/xampp/htdocs/udemy_php7/vistas/header.php",
+		"/C/xampp/htdocs/udemy_php7/ajax/usuario.php",
+		"/C/xampp/htdocs/udemy_php7/vistas/categoria_v.php",
+		"/C/xampp/htdocs/udemy_php7/vistas/head.php",
+		"/C/xampp/htdocs/udemy_php7/vistas/articulo_v.php",
+		"/C/xampp/htdocs/udemy_php7/vistas/usuario_v.php",
+		"/C/xampp/htdocs/udemy_php7/vistas/proveedor_v.php",
+		"/C/xampp/htdocs/udemy_php7/vistas/permiso_v.php",
+		"/U/TMP/Nueva carpeta/sistema/vistas/header.php",
+		"/U/TMP/Nueva carpeta/sistema/vistas/listado.php",
+		"/F/wp/themes 2018/multiproposito/bridge-137/xml export/bridge_content_Bridge102.xml",
+		"/E/BOGOTA_WEB_COMPANY/WEBSITE/datos.txt",
+		"/E/1A/PROYECTOS/2017/CALZADO SOFIA/datos.txt",
+		"/F/wp/themes 2018/multiproposito/bridge-137/xml export/new demos/bridge102-export.xml",
+		"/U/TMP/Nueva carpeta/sesiones/php/procesar_login.php",
+		"/U/TMP/Nueva carpeta/sesiones/js/myjava.js",
+		"/U/TMP/Nueva carpeta/sesiones/js/jquery.js",
+		"/C/xampp/htdocs/udemy_php7/vistas/login.php",
+		"/C/xampp/htdocs/udemy_php7/ajax/permiso.php",
+		"/C/xampp/htdocs/udemy_php7/vistas/scripts/permiso.js",
+		"/U/CURSOS/GRUPO FACEBOOK/FACEBOOK/FACEBOOK ADDS PLATZI/11- MIS ANOTACIONES/medidas banner.txt",
+		"/E/1A/COTIZACIONES/2018/3- MARZO/Andres ventilacion/datos.txt",
+		"/C/Users/blessmen/Dropbox/BASE_PROYECTOS/CHULETAS/WP/htacces/htaccess.txt",
+		"/E/1A/PROYECTOS/2018/MILENNIAN/CONTENIDO/ATT00003.htm",
+		"/E/1A/PROYECTOS/2018/MILENNIAN/CONTENIDO/ATT00001.htm",
+		"/E/1A/PROYECTOS/2018/MILENNIAN/CONTENIDO/ATT00002.htm",
+		"/E/1A/PROYECTOS/2017/LIPUR/datos_host_lipur.txt",
+		"/U/firma JD.html",
+		"/E/1A/COTIZACIONES/2018/3- MARZO/JULIO - DETERGENTES/datos.txt",
+		"/C/xampp/htdocs/bootstrap4/1practica_grid.php",
+		"/E/1A/COTIZACIONES/2018/3- MARZO/ALEJANDRO-ESOTERICOS/datos.txt",
+		"/C/xampp/htdocs/udemy_php7/vistas/footer.php",
+		"/E/1A/COTIZACIONES/2017/NOVIEMBRE/carlos -exoterico/datos.txt",
+		"/E/1A/COTIZACIONES/2017/NOVIEMBRE/vilm blog espiritual/datos.txt",
+		"/C/xampp/htdocs/udemy_php7/tema original/dist/default/snippets/pages/user/login-1.html",
+		"/C/xampp/htdocs/udemy_php7/tema original/dist/default/index.html",
+		"/C/xampp/htdocs/udemy_php7/index.php",
+		"/C/xampp/htdocs/flexibag/wp-content/themes/pearl/style.css",
+		"/E/1A/COTIZACIONES/2018/3- MARZO/KAREN - CONTADURIA/datos"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"src=",
+			"img src=",
+			"href=",
+			"href=\"",
+			"src=\"assets/",
+			"ef=\"assets",
+			"contacto",
+			"ef=\"assets",
+			" del primer post",
+			"ategoria 1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ef=\"/metronic",
+			"ef=\"/metronic/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Post.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								332,
+								332
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/inicio.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/F/PLANTILLAS HTML/blog/blanca/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29934,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								29934
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/front/template.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23024,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7949,
+								7949
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3020.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "routes/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								222,
+								222
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "resources/views/admin.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 71,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "bloglaravel.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"index.php",
+				"index.php"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"foot",
+				"footer.php"
+			],
+			[
+				"sing",
+				"single.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
