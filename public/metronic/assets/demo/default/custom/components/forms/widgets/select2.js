@@ -13,8 +13,8 @@ var Select2 = function() {
         });
 
         // multi select
-        $('#m_select2_3, #m_select2_3_validate').select2({
-            placeholder: "Select a state",
+        $('#m_select2_tag, #m_select2_3_validate').select2({
+            placeholder: "Selecciona una o más etiquetas",
         });
 
         // basic

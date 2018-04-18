@@ -67,7 +67,46 @@ var FormControls = function () {
         });       
     }
 
-    var demo2 = function () {
+    var demo4 = function () {
+        $( "#crearPost" ).validate({
+            // define validation rules
+            rules: {
+                title: {
+                    required: true,
+                    // email: true 
+                },
+                tags: {
+                    required: true 
+                },
+                body: {
+                    required: true,
+                },
+                excerpt: {
+                    required: true,
+                },
+                category: {
+                    required: true,
+                }
+            },
+            
+            //display error alert on form submit  
+            invalidHandler: function(event, validator) {     
+                mApp.scrollTo("#m_form_2");
+
+                swal({
+                    "title": "Error al enviar el formulario", 
+                    "text": "Hay algunos errores en el formulario", 
+                    "type": "error",
+                    "confirmButtonClass": "btn btn-secondary m-btn m-btn--wide"
+                });
+            },
+
+            submitHandler: function (form) {
+                //form[0].submit(); // submit the form
+            }
+        });       
+    }
+    var demo2= function () {
         $( "#m_form_2" ).validate({
             // define validation rules
             rules: {
@@ -215,6 +254,7 @@ var FormControls = function () {
             demo1(); 
             demo2();
             demo3(); 
+            demo4(); 
         }
     };
 }();

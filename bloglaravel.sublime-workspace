@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ac",
+				"action\tAttr"
+			],
+			[
 				"Rou",
 				"Route::get\tBasic Get Route."
 			],
@@ -244,55 +248,54 @@
 	"buffers":
 	[
 		{
-			"file": "app/Post.php",
-			"settings":
-			{
-				"buffer_size": 332,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/inicio.blade.php",
-			"settings":
-			{
-				"buffer_size": 1770,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/F/PLANTILLAS HTML/blog/blanca/index.html",
-			"settings":
-			{
-				"buffer_size": 29934,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/views/front/template.blade.php",
-			"settings":
-			{
-				"buffer_size": 23024,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "routes/web.php",
 			"settings":
 			{
-				"buffer_size": 450,
+				"buffer_size": 1107,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "resources/views/admin.blade.php",
+			"file": "resources/views/admin/pages/crear.blade.php",
 			"settings":
 			{
-				"buffer_size": 71,
+				"buffer_size": 7814,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/metronic/assets/demo/default/custom/components/forms/validation/form-controls.js",
+			"settings":
+			{
+				"buffer_size": 7654,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/PLANTILLAS HTML/panel admin/2018/METRONIC/metronic-511/metronic_v5.1.1/default/dist/default/components/forms/layouts/multi-column-forms.html",
+			"settings":
+			{
+				"buffer_size": 179635,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/Admin/AdminController.php",
+			"settings":
+			{
+				"buffer_size": 1591,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "comandos.php",
+			"settings":
+			{
+				"buffer_size": 958,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -334,7 +337,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 412.0
+		"width": 1012.0
 	},
 	"console":
 	{
@@ -356,16 +359,74 @@
 	[
 		"/C/xampp/htdocs/bloglaravel",
 		"/C/xampp/htdocs/bloglaravel/public",
-		"/C/xampp/htdocs/bloglaravel/public/frontTheme",
+		"/C/xampp/htdocs/bloglaravel/public/css",
+		"/C/xampp/htdocs/bloglaravel/public/metronic",
+		"/C/xampp/htdocs/bloglaravel/public/metronic/assets",
+		"/C/xampp/htdocs/bloglaravel/public/metronic/assets/demo",
+		"/C/xampp/htdocs/bloglaravel/public/metronic/assets/demo/default",
+		"/C/xampp/htdocs/bloglaravel/public/metronic/assets/demo/default/custom",
+		"/C/xampp/htdocs/bloglaravel/public/metronic/assets/demo/default/custom/components",
+		"/C/xampp/htdocs/bloglaravel/public/metronic/assets/demo/default/custom/components/forms",
+		"/C/xampp/htdocs/bloglaravel/public/metronic/assets/demo/default/custom/components/forms/validation",
 		"/C/xampp/htdocs/bloglaravel/resources",
+		"/C/xampp/htdocs/bloglaravel/resources/assets",
+		"/C/xampp/htdocs/bloglaravel/resources/assets/sass",
 		"/C/xampp/htdocs/bloglaravel/resources/views",
-		"/C/xampp/htdocs/bloglaravel/resources/views/front"
+		"/C/xampp/htdocs/bloglaravel/resources/views/admin"
 	],
 	"file_history":
 	[
+		"/E/1A/PROYECTOS/2017/DISEÑO TRAZOS Y MADERA/datos2017.txt",
+		"/U/Contraseña.txt",
+		"/C/xampp/htdocs/bloglaravel/public/metronic/assets/app/styles.css",
+		"/F/PLANTILLAS HTML/panel admin/2018/METRONIC/metronic-511/metronic_v5.1.1/default/dist/default/components/forms/validation/states.html",
 		"/C/xampp/htdocs/bloglaravel/resources/views/admin/template.blade.php",
-		"/C/xampp/htdocs/bloglaravel/database/seeds/PostsTableSeeder.php",
+		"/C/xampp/htdocs/bloglaravel/public/css/app.css",
+		"/F/PLANTILLAS HTML/panel admin/2018/METRONIC/metronic-511/metronic_v5.1.1/default/dist/default/components/forms/validation/form-widgets.html",
+		"/C/xampp/htdocs/bloglaravel/public/metronic/assets/vendors/base/vendors.bundle.js",
+		"/C/xampp/htdocs/bloglaravel/app/Post.php",
+		"/C/xampp/htdocs/bloglaravel/public/metronic/assets/demo/default/custom/components/forms/validation/messages_es_AR.js",
+		"/F/PLANTILLAS HTML/panel admin/2018/METRONIC/metronic-511/metronic_v5.1.1/default/dist/default/components/forms/validation/form-controls.html",
+		"/C/xampp/htdocs/bloglaravel/public/metronic/assets/demo/default/custom/components/forms/validation/form-controls.js",
+		"/C/xampp/htdocs/bloglaravel/app/Http/Controllers/Controller.php",
+		"/C/xampp/htdocs/bloglaravel/vendor/laravel/framework/src/Illuminate/Foundation/Validation/ValidatesRequests.php",
+		"/F/PLANTILLAS HTML/panel admin/2018/METRONIC/metronic-511/metronic_v5.1.1/default/dist/default/components/forms/widgets/bootstrap-datepicker.html",
+		"/F/PLANTILLAS HTML/panel admin/2018/METRONIC/metronic-511/metronic_v5.1.1/default/dist/default/components/base/alerts.html",
+		"/C/xampp/htdocs/bloglaravel/public/metronic/assets/demo/default/custom/components/forms/widgets/select2.js",
+		"/F/PLANTILLAS HTML/panel admin/2018/METRONIC/metronic-511/metronic_v5.1.1/default/dist/default/components/forms/controls/base.html",
+		"/C/xampp/htdocs/bloglaravel/resources/views/admin/pages/listar.blade.php",
+		"/F/PLANTILLAS HTML/panel admin/2018/METRONIC/metronic-511/metronic_v5.1.1/default/dist/default/components/forms/widgets/bootstrap-markdown.html",
+		"/F/PLANTILLAS HTML/panel admin/2018/METRONIC/metronic-511/metronic_v5.1.1/default/dist/default/components/forms/widgets/select2.html",
+		"/F/PLANTILLAS HTML/panel admin/2018/METRONIC/metronic-511/metronic_v5.1.1/default/dist/default/components/datatables/base/html-table.html",
+		"/F/PLANTILLAS HTML/panel admin/2018/METRONIC/metronic-511/metronic_v5.1.1/default/dist/default/components/forms/layouts/multi-column-forms.html",
+		"/C/xampp/htdocs/bloglaravel/resources/views/admin/pages/crear.blade.php",
+		"/C/xampp/htdocs/bloglaravel/app/Http/Controllers/Admin/AdminController.php",
+		"/F/PLANTILLAS HTML/panel admin/2018/METRONIC/metronic-511/metronic_v5.1.1/default/dist/default/components/forms/widgets/bootstrap-select.html",
+		"/F/PLANTILLAS HTML/panel admin/2018/METRONIC/metronic-511/metronic_v5.1.1/default/dist/default/components/datatables/base/data-ajax.html",
+		"/C/xampp/htdocs/bloglaravel/resources/views/admin/partials/leftNav.blade.php",
+		"/C/xampp/htdocs/bloglaravel/public/metronic/assets/demo/default/custom/components/forms/widgets/bootstrap-datepicker.js",
+		"/C/xampp/htdocs/bloglaravel/app/Http/Controllers/HomeController.php",
+		"/C/xampp/htdocs/bloglaravel/resources/views/admin/pages/escritorio.blade.php",
+		"/C/xampp/htdocs/bloglaravel/app/Http/Middleware/RedirectIfAuthenticated.php",
+		"/C/xampp/htdocs/bloglaravel/app/Http/Controllers/Auth/LoginController.php",
+		"/C/xampp/htdocs/bloglaravel/resources/views/errors/404.blade.php",
+		"/F/PLANTILLAS HTML/panel admin/2018/METRONIC/metronic-511/metronic_v5.1.1/default/dist/default/snippets/pages/errors/error-2.html",
+		"/C/xampp/htdocs/bloglaravel/resources/views/escritorio.blade.php",
+		"/C/xampp/htdocs/bloglaravel/resources/views/admin.blade.php",
+		"/E/BOGOTA_WEB_COMPANY/paleta colores.txt",
+		"/C/xampp/htdocs/bloglaravel/resources/views/front/template.blade.php",
+		"/C/xampp/htdocs/bloglaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+		"/C/xampp/htdocs/bloglaravel/config/app.php",
+		"/C/xampp/htdocs/bloglaravel/resources/lang/es/passwords.php",
+		"/C/xampp/htdocs/bloglaravel/resources/lang/es/pagination.php",
+		"/C/xampp/htdocs/bloglaravel/resources/lang/es/validation.php",
+		"/C/xampp/htdocs/bloglaravel/resources/lang/es/auth.php",
+		"/F/PLANTILLAS HTML/panel admin/2018/METRONIC/metronic-511/metronic_v5.1.1/default/dist/default/snippets/pages/user/login-1.html",
+		"/F/ALL FOR FORMAT 2016/WINDOWS/activador/cracker windows 10/informacion e instrucciones.txt",
+		"/C/xampp/htdocs/bloglaravel/resources/views/layouts/app.blade.php",
 		"/C/xampp/htdocs/bloglaravel/resources/views/inicio.blade.php",
+		"/F/PLANTILLAS HTML/blog/blanca/index.html",
+		"/C/xampp/htdocs/bloglaravel/database/seeds/PostsTableSeeder.php",
 		"/C/xampp/htdocs/bloglaravel/database/migrations/2018_04_08_231211_create_categorias_table.php",
 		"/C/xampp/htdocs/bloglaravel/database/migrations/2018_04_09_160459_create_post_tag_table.php",
 		"/C/xampp/htdocs/bloglaravel/database/migrations/2018_04_09_160146_create_post_tag_table.php",
@@ -373,13 +434,11 @@
 		"/C/xampp/htdocs/bloglaravel/database/seeds/DatabaseSeeder.php",
 		"/C/xampp/htdocs/bloglaravel/routes/web.php",
 		"/C/xampp/htdocs/bloglaravel/database/migrations/2018_04_07_195946_create_posts_table.php",
-		"/C/xampp/htdocs/bloglaravel/app/Post.php",
 		"/C/xampp/htdocs/pblog/database/migrations/2018_04_07_213110_create_posts_table.php",
 		"/C/xampp/htdocs/pblog/app/Providers/AppServiceProvider.php",
 		"/C/xampp/htdocs/pblog/.env",
 		"/C/xampp/htdocs/syngenta/resources/TEMA ORIGINAL/index.html",
 		"/C/xampp/htdocs/syngenta/resources/views/template.blade.php",
-		"/U/Contraseña.txt",
 		"/C/xampp/htdocs/curso_laravel/sitioWeb/resources/views/template.blade.php",
 		"/C/xampp/htdocs/curso_laravel/sistema/routes/web.php",
 		"/C/xampp/htdocs/curso_laravel/sitioWeb/resources/views/nosotros.blade.php",
@@ -394,9 +453,7 @@
 		"/C/xampp/htdocs/curso_laravel/sitioWeb/resources/views/contacto.blade.php",
 		"/C/xampp/htdocs/curso_laravel/sitioWeb/resources/views/servicios.blade.php",
 		"/E/1A/PROYECTOS/2017/ITPSAS/datos.txt",
-		"/E/1A/PROYECTOS/2017/DISEÑO TRAZOS Y MADERA/datos2017.txt",
 		"/E/1A/PROYECTOS/2018/FLEXIBAG/datos.txt",
-		"/E/BOGOTA_WEB_COMPANY/paleta colores.txt",
 		"/E/1A/PROYECTOS/2017/ESVECOREAL/datos.txt",
 		"/C/xampp/htdocs/udemy_php7/ajax/articulo.php",
 		"/C/xampp/htdocs/udemy_php7/vistas/leftSidebar.php",
@@ -446,55 +503,11 @@
 		"/E/1A/PROYECTOS/2018/MILENNIAN/datos_cliente.txt",
 		"/U/JD/firma JD.html",
 		"/E/1A/PROYECTOS/2018/MILENNIAN/VIDEO/PREMIER/DERECHOS.txt",
-		"/U/serial.txt",
-		"/C/xampp/htdocs/udemy_app_seguras/views/modulos/contacto.php",
-		"/C/xampp/htdocs/udemy_app_seguras/views/modulos/servicios.php",
-		"/C/xampp/htdocs/udemy_app_seguras/views/modulos/nosotros.php",
-		"/C/xampp/htdocs/udemy_app_seguras/views/modulos/head.php",
-		"/C/xampp/htdocs/udemy_app_seguras/views/style.css",
-		"/C/xampp/htdocs/udemy_php7/vistas/header.php",
-		"/C/xampp/htdocs/udemy_php7/ajax/usuario.php",
-		"/C/xampp/htdocs/udemy_php7/vistas/categoria_v.php",
-		"/C/xampp/htdocs/udemy_php7/vistas/head.php",
-		"/C/xampp/htdocs/udemy_php7/vistas/articulo_v.php",
-		"/C/xampp/htdocs/udemy_php7/vistas/usuario_v.php",
-		"/C/xampp/htdocs/udemy_php7/vistas/proveedor_v.php",
-		"/C/xampp/htdocs/udemy_php7/vistas/permiso_v.php",
-		"/U/TMP/Nueva carpeta/sistema/vistas/header.php",
-		"/U/TMP/Nueva carpeta/sistema/vistas/listado.php",
-		"/F/wp/themes 2018/multiproposito/bridge-137/xml export/bridge_content_Bridge102.xml",
-		"/E/BOGOTA_WEB_COMPANY/WEBSITE/datos.txt",
-		"/E/1A/PROYECTOS/2017/CALZADO SOFIA/datos.txt",
-		"/F/wp/themes 2018/multiproposito/bridge-137/xml export/new demos/bridge102-export.xml",
-		"/U/TMP/Nueva carpeta/sesiones/php/procesar_login.php",
-		"/U/TMP/Nueva carpeta/sesiones/js/myjava.js",
-		"/U/TMP/Nueva carpeta/sesiones/js/jquery.js",
-		"/C/xampp/htdocs/udemy_php7/vistas/login.php",
-		"/C/xampp/htdocs/udemy_php7/ajax/permiso.php",
-		"/C/xampp/htdocs/udemy_php7/vistas/scripts/permiso.js",
-		"/U/CURSOS/GRUPO FACEBOOK/FACEBOOK/FACEBOOK ADDS PLATZI/11- MIS ANOTACIONES/medidas banner.txt",
-		"/E/1A/COTIZACIONES/2018/3- MARZO/Andres ventilacion/datos.txt",
-		"/C/Users/blessmen/Dropbox/BASE_PROYECTOS/CHULETAS/WP/htacces/htaccess.txt",
-		"/E/1A/PROYECTOS/2018/MILENNIAN/CONTENIDO/ATT00003.htm",
-		"/E/1A/PROYECTOS/2018/MILENNIAN/CONTENIDO/ATT00001.htm",
-		"/E/1A/PROYECTOS/2018/MILENNIAN/CONTENIDO/ATT00002.htm",
-		"/E/1A/PROYECTOS/2017/LIPUR/datos_host_lipur.txt",
-		"/U/firma JD.html",
-		"/E/1A/COTIZACIONES/2018/3- MARZO/JULIO - DETERGENTES/datos.txt",
-		"/C/xampp/htdocs/bootstrap4/1practica_grid.php",
-		"/E/1A/COTIZACIONES/2018/3- MARZO/ALEJANDRO-ESOTERICOS/datos.txt",
-		"/C/xampp/htdocs/udemy_php7/vistas/footer.php",
-		"/E/1A/COTIZACIONES/2017/NOVIEMBRE/carlos -exoterico/datos.txt",
-		"/E/1A/COTIZACIONES/2017/NOVIEMBRE/vilm blog espiritual/datos.txt",
-		"/C/xampp/htdocs/udemy_php7/tema original/dist/default/snippets/pages/user/login-1.html",
-		"/C/xampp/htdocs/udemy_php7/tema original/dist/default/index.html",
-		"/C/xampp/htdocs/udemy_php7/index.php",
-		"/C/xampp/htdocs/flexibag/wp-content/themes/pearl/style.css",
-		"/E/1A/COTIZACIONES/2018/3- MARZO/KAREN - CONTADURIA/datos"
+		"/U/serial.txt"
 	],
 	"find":
 	{
-		"height": 41.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -508,16 +521,46 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"src=",
-			"img src=",
-			"href=",
-			"href=\"",
-			"src=\"assets/",
-			"ef=\"assets",
-			"contacto",
-			"ef=\"assets",
-			" del primer post",
-			"ategoria 1"
+			"form-group m-form__group",
+			"row",
+			"\n\t\t\t\t",
+			"row",
+			"2 Columns Form Layout",
+			"{{ $errors->has('title') ? 'has-danger ' : ''  }}",
+			"Input with danger",
+			"var demo",
+			"titulo",
+			"category_id",
+			"<footer",
+			"required",
+			"crear",
+			"categoria_id",
+			"col-lg-8",
+			"2 Columns Form Layout",
+			"Bootstrap Markdown Examples",
+			"Bootstrap Select Examples",
+			"generalSearch",
+			"class=\"\"",
+			"class=\"text-center\"",
+			"Datatable initilized from HTML table",
+			"input group",
+			"Input Group Setup",
+			"\t\t\n",
+			"yield",
+			"pages/",
+			"admin",
+			"../../..",
+			"home",
+			"->middleware('auth')",
+			"Admin\\",
+			"->middleware('auth')",
+			"Admin\\",
+			"listar",
+			"home",
+			"Home",
+			"home",
+			"}}",
+			"}} "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -525,8 +568,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"ef=\"/metronic",
-			"ef=\"/metronic/"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -537,24 +578,45 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/Post.php",
+					"file": "routes/web.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 332,
+						"buffer_size": 1107,
 						"regions":
 						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										263,
+										263
+									]
+								],
+								"scope": "bookmarks"
+							}
 						},
 						"selection":
 						[
 							[
-								332,
-								332
+								429,
+								429
+							],
+							[
+								453,
+								453
+							],
+							[
+								480,
+								480
 							]
 						],
 						"settings":
@@ -570,19 +632,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "resources/views/inicio.blade.php",
+					"file": "resources/views/admin/pages/crear.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1770,
+						"buffer_size": 7814,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								41,
-								41
+								5715,
+								5715
 							]
 						],
 						"settings":
@@ -591,37 +653,37 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 508.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/F/PLANTILLAS HTML/blog/blanca/index.html",
+					"file": "public/metronic/assets/demo/default/custom/components/forms/validation/form-controls.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 29934,
+						"buffer_size": 7654,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								29934
+								2325,
+								2325
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1200.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -629,58 +691,58 @@
 				},
 				{
 					"buffer": 3,
-					"file": "resources/views/front/template.blade.php",
+					"file": "/F/PLANTILLAS HTML/panel admin/2018/METRONIC/metronic-511/metronic_v5.1.1/default/dist/default/components/forms/layouts/multi-column-forms.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 23024,
+						"buffer_size": 179635,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7949,
-								7949
+								137460,
+								137460
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3020.0,
+						"translation.y": 69544.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "routes/web.php",
+					"file": "app/Http/Controllers/Admin/AdminController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 450,
+						"buffer_size": 1591,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								222,
-								222
+								863,
+								828
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -688,31 +750,31 @@
 				},
 				{
 					"buffer": 5,
-					"file": "resources/views/admin.blade.php",
+					"file": "comandos.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 71,
+						"buffer_size": 958,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								71,
-								71
+								958,
+								958
 							]
 						],
 						"settings":
 						{
 							"open_with_edit": true,
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -754,10 +816,10 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "bloglaravel.sublime-project",
+	"project": "blogLaravel.sublime-project",
 	"replace":
 	{
-		"height": 74.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -766,6 +828,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"app.bla",
+				"resources\\views\\layouts\\app.blade.php"
+			],
+			[
+				"router.p",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php"
+			],
 			[
 				"index.php",
 				"index.php"
@@ -811,7 +881,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 291.0,
+	"side_bar_width": 293.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

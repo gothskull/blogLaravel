@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8" />
         <title>
-            Metronic | Login Page - 1
+            Blog con laravel
         </title>
         <meta name="description" content="Latest updates and statistic charts">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -49,20 +49,16 @@
                                     </div>
                                     <form class="m-login__form m-form" method="POST" action="{{ route('login') }}">
                                         {{ csrf_field() }}
-                                        <div class="m-form__group form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                                        <div class="m-form__group form-group {{ $errors->has('email') ? 'has-danger' : '' }}">
                                             <input class="form-control m-input" type="text" placeholder="Correo" name="email" autocomplete="off" value="{{ old('email') }}" required autofocus>
                                             @if ($errors->has('email'))
-                                                <span class="help-block">
-                                                    <strong>{{ $errors->first('email') }}</strong>
-                                                </span>
+                                                <div id="email-error" class="form-control-feedback">{{ $errors->first('email') }}</div>
                                             @endif
                                         </div>
-                                        <div class="m-form__group form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                                        <div class="m-form__group form-group {{ $errors->has('email') ? 'has-danger' : '' }}">
                                             <input class="form-control m-input m-login__form-input--last" type="password" placeholder="Contraseña" name="password" required>
                                             @if ($errors->has('password'))
-                                                <span class="help-block">
-                                                    <strong>{{ $errors->first('password') }}</strong>
-                                                </span>
+                                                 <div id="email-error" class="form-control-feedback">{{ $errors->first('password') }}</div>
                                             @endif
                                         </div>
                                         <div class="row m-login__form-sub">
@@ -75,7 +71,7 @@
                                             </div>
                                             <div class="col m--align-right">
                                                 <a href="{{ route('password.request') }}" id="m_login_forget_password" class="m-link">
-                                                    Olvidaste tu contraseña?
+                                                    Olvide mi contraseña
                                                 </a>
                                             </div>
                                         </div>
@@ -134,7 +130,7 @@
         <script src="/metronic/assets/demo/default/base/scripts.bundle.js" type="text/javascript"></script>
         <!--end::Base Scripts -->   
         <!--begin::Page Snippets -->
-        <script src="/metronic/assets/snippets/pages/user/login.js" type="text/javascript"></script>
+        {{-- <script src="/metronic/assets/snippets/pages/user/login.js" type="text/javascript"></script> --}}
         <!--end::Page Snippets -->
     </body>
     <!-- end::Body -->
@@ -142,77 +138,3 @@
 
 
 
-
-{{-- 
-
-
-
-
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Login</div>
-
-                <div class="panel-body">
-                    <form class="form-horizontal" method="POST" action="{{ route('login') }}">
-                        {{ csrf_field() }}
-
-                        <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                            <label for="email" class="col-md-4 control-label">E-Mail Address</label>
-
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required autofocus>
-
-                                @if ($errors->has('email'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('email') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
-
-                        <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                            <label for="password" class="col-md-4 control-label">Password</label>
-
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control" name="password" required>
-
-                                @if ($errors->has('password'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('password') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-6 col-md-offset-4">
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}> Remember Me
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-8 col-md-offset-4">
-                                <button type="submit" class="btn btn-primary">
-                                    Login
-                                </button>
-
-                                <a class="btn btn-link" href="{{ route('password.request') }}">
-                                    Forgot Your Password?
-                                </a>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
- 
- --}}
