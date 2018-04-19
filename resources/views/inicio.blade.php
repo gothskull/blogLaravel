@@ -1,4 +1,40 @@
 @extends('front.template')
+@section('banner')
+	
+	<div class="swiper-container hero-slider">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide">
+	            <div class="hero-content flex justify-content-center align-items-center flex-column">
+	                <img src="/frontTheme/images/slider.jpg" alt="">
+	            </div><!-- .hero-content -->
+	        </div><!-- .swiper-slide -->
+
+	        <div class="swiper-slide">
+	            <div class="hero-content flex justify-content-center align-items-center flex-column">
+	                <img src="/frontTheme/images/slider.jpg" alt="">
+	            </div><!-- .hero-content -->
+	        </div><!-- .swiper-slide -->
+
+	        <div class="swiper-slide">
+	            <div class="hero-content flex justify-content-center align-items-center flex-column">
+	                <img src="/frontTheme/images/slider.jpg" alt="">
+	            </div><!-- .hero-content -->
+	        </div><!-- .swiper-slide -->
+	    </div><!-- .swiper-wrapper -->
+
+	    <!-- Add Pagination -->
+	    <div class="swiper-pagination"></div>
+
+	    <!-- Add Arrows -->
+	    <div class="swiper-button-next flex justify-content-center align-items-center">
+	        <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 44"><path d="M27,22L27,22L5,44l-2.1-2.1L22.8,22L2.9,2.1L5,0L27,22L27,22z"></path></svg></span>
+	    </div>
+	    <div class="swiper-button-prev flex justify-content-center align-items-center">
+	        <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 44"><path d="M0,22L22,0l2.1,2.1L4.2,22l19.9,19.9L22,44L0,22L0,22L0,22z"></path></svg></span>
+	    </div>
+	</div><!-- .swiper-container -->
+
+@stop
 
 @section('blog')
 
@@ -37,7 +73,7 @@
 		            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
 		        </ul><!-- .post-share -->
 
-		        <a class="read-more order-2" href="#">Leer Más</a>
+		        <a class="read-more order-2" href="blog/{{ $post->url}} ">Leer Más</a>
 
 		        <div class="comments-count order-1 order-lg-3">
 		            <a href="#">2 Comentarios</a>

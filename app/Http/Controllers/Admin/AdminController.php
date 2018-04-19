@@ -41,11 +41,12 @@ class AdminController extends Controller
 
       // dd($request->get('tags'));
       // return App\Post::create($request->all());
-      dd($request->has('published_at'));
+      // dd($request->has('published_at'));
       $post = new Post;
 
       $post->title        = $request->get('title');
       $post->excerpt      = $request->get('excerpt');
+      $post->url          = str_slug($request->get('url'));
       $post->body         = $request->get('body');
       $post->published_at = $request->has('published_at') ? Carbon::parse($request->get('published_at')) : null;
       $post->category_id  = $request->get('category');

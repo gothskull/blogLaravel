@@ -2,14 +2,15 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App;
+use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
     public function home()
     {
-    	$posts = App\Post::latest('published_at')->get();//SE LE COLOCA APP\ PORQUE ES EL NAMESPACE DE POST EN LA RUTA app/Post
+    	
+    	 $posts = App\Post::published()->get();
     	return view('inicio',compact('posts'));
     }
 }

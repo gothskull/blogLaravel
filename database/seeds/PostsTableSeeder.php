@@ -1,10 +1,10 @@
 <?php
 
-use Carbon\Carbon;
-use App\Post;
 use App\Categoria;
+use App\Post;
 use App\Tag;
-
+use App\User;
+use Carbon\Carbon;
 use Illuminate\Database\Seeder;
 
 class PostsTableSeeder extends Seeder
@@ -19,6 +19,11 @@ class PostsTableSeeder extends Seeder
     	Post::truncate();
     	Categoria::truncate();
     	Tag::truncate();
+
+        $user = new App\User;
+        $user->name     = 'hernando';
+        $user->email    = 'chaza@hotmail.com';
+        $user->password = '123456';
 
     	$tag = new Tag;
     	$tag->name= 'HTML';
@@ -48,14 +53,16 @@ class PostsTableSeeder extends Seeder
         $post =new Post;
 
         $post->title   = "Post en blog con seeder categoria 1";
+        $post->url     = str_slug("Post en blog con seeder categoria 1");
         $post->excerpt = "excerpt del primer post";
         $post->body    = "Ornare cum sociis sed, mus vehicula! Fusce voluptatem doloremque magni vitae minim, repellendus laoreet, fuga? Per? Suspendisse recusandae. Vestibulum wisi euismod ex excepturi ducimus nibh quaerat expedita hic est autem, suscipit iste! Inceptos vitae quisque mauris maecenas dignissim, voluptatem ornare dapibus! Alias consectetuer habitasse pariatur laboriosam assumenda repudiandae delectus primis sed! Esse ullam, odit, hymenaeos, ultricies dolore, parturient fuga esse! Tenetur vestibulum,";
         $post->published_at = Carbon::now();
         $post->category_id = 1;
         $post->save();
 
-         $post =new Post;
+        $post =new Post;
         $post->title   = "Post en blog con seeder categoria 1";
+        $post->url     = str_slug("Post en blog con seeder categoria 1");
         $post->excerpt = "excerpt del primer post";
         $post->body    = "Ornare cum sociis sed, mus vehicula! Fusce voluptatem doloremque magni vitae minim, repellendus laoreet, fuga? Per? Suspendisse recusandae. Vestibulum wisi euismod ex excepturi ducimus nibh quaerat expedita hic est autem, suscipit iste! Inceptos vitae quisque mauris maecenas dignissim, voluptatem ornare dapibus! Alias consectetuer habitasse pariatur laboriosam assumenda repudiandae delectus primis sed! Esse ullam, odit, hymenaeos, ultricies dolore, parturient fuga esse! Tenetur vestibulum,";
         $post->published_at = Carbon::now();
@@ -64,6 +71,7 @@ class PostsTableSeeder extends Seeder
 
          $post =new Post;
         $post->title   = "Post en blog con seeder categoria 2";
+        $post->url     = str_slug("Post en blog con seeder categoria 2");
         $post->excerpt = "excerpt del primer post";
         $post->body    = "Ornare cum sociis sed, mus vehicula! Fusce voluptatem doloremque magni vitae minim, repellendus laoreet, fuga? Per? Suspendisse recusandae. Vestibulum wisi euismod ex excepturi ducimus nibh quaerat expedita hic est autem, suscipit iste! Inceptos vitae quisque mauris maecenas dignissim, voluptatem ornare dapibus! Alias consectetuer habitasse pariatur laboriosam assumenda repudiandae delectus primis sed! Esse ullam, odit, hymenaeos, ultricies dolore, parturient fuga esse! Tenetur vestibulum,";
         $post->published_at = Carbon::now();
@@ -72,6 +80,7 @@ class PostsTableSeeder extends Seeder
 
          $post =new Post;
         $post->title   = "Post en blog con seeder categoria 2";
+        $post->url     = str_slug("Post en blog con seeder categoria 2");
         $post->excerpt = "excerpt del primer post";
         $post->body    = "Ornare cum sociis sed, mus vehicula! Fusce voluptatem doloremque magni vitae minim, repellendus laoreet, fuga? Per? Suspendisse recusandae. Vestibulum wisi euismod ex excepturi ducimus nibh quaerat expedita hic est autem, suscipit iste! Inceptos vitae quisque mauris maecenas dignissim, voluptatem ornare dapibus! Alias consectetuer habitasse pariatur laboriosam assumenda repudiandae delectus primis sed! Esse ullam, odit, hymenaeos, ultricies dolore, parturient fuga esse! Tenetur vestibulum,";
         $post->published_at = Carbon::now();

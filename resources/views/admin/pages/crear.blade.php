@@ -125,7 +125,7 @@
 					<label>
 					  Titulo:
 					</label>
-					<input type="text" class="form-control m-input" placeholder="Ingrese el titulo de la publicación" name="title" id="title" maxlength="50" >
+					<input type="text" class="form-control m-input" placeholder="Ingrese el titulo de la publicación" name="title" id="title" maxlength="50" value="{{ old('title')}}  ">
 					
 					{!! $errors->first('title','<div class="form-control-feedback errorLara">:message</div>') !!}
 				</div>
@@ -134,12 +134,13 @@
 						Fecha
 					</label>
 					<div class="input-group date">
-						<input type="text" class="form-control " name="published_at" id="m_datepicker_2" readonly  placeholder="Seleccione la fecha" />
+						<input type="text" class="form-control" value="{{ old('published_at')}}  " name="published_at" id="m_datepicker_2" readonly  placeholder="Seleccione la fecha" value="" />
 						<div class="input-group-append">
 							<span class="input-group-text">
 								<i class="la la-calendar-check-o"></i>
 							</span>
 						</div>
+						{!! $errors->first('published_at','<div class="form-control-feedback errorLara">:message</div>') !!}
 					</div>
 				</div>
 			</div>
@@ -151,7 +152,7 @@
 						<div class="form-group m-form__group row">
 							
 							<div class="col-lg-12 col-md-12 col-sm-12">
-								<textarea  class="form-control " data-provide="markdown" rows="10" name="body" id="body"></textarea>
+								<textarea  class="form-control " data-provide="markdown" rows="10" name="body" id="body">{{ old('body')}}  </textarea>
 							</div>
 							{!! $errors->first('body','<div class="form-control-feedback errorLara">:message</div>') !!}
 						</div>
@@ -164,7 +165,7 @@
 			  			<option value=""> Selecciona una categoría</option>
 			  			@foreach($categorias as $cat)
 							
-							<option value="{{ $cat->id }} ">{{ $cat->name }}</option>	
+							<option value="{{ $cat->id }} " {{old('category') == $cat->id ? 'selected' : ''  }}>{{ $cat->name }}</option>	
 							
 			  			@endforeach
 			  		
@@ -176,7 +177,8 @@
 						<div class="">
 							<select class="form-control m-select2" id="m_select2_tag" name="tags[]" multiple="multiple">
 								@foreach($tags as $tag)
-									<option value="{{ $tag->id  }}">{{$tag->name  }}  </option>
+
+									<option value="{{ $tag->id  }}" {{collect(old('tags'))->contains($tag->id) ? 'selected' :''  }}>{{$tag->name  }}  </option>
 								@endforeach
 							</select>
 							{!! $errors->first('tags','<div class="form-control-feedback errorLara">:message</div>') !!}
@@ -184,7 +186,7 @@
 						<label class="mt-4">
 						  Extracto:
 						</label>
-						<textarea class="form-control m-input" placeholder="Ingresa resumen del post" name="excerpt" id="excerpt" rows="5"></textarea>
+						<textarea class="form-control m-input" placeholder="Ingresa resumen del post" name="excerpt" id="excerpt" rows="5">{{ old('excerpt') }}</textarea>
 						{!! $errors->first('excerpt','<div class="form-control-feedback errorLara">:message</div>') !!}
 				</div>
 			</div>
@@ -220,9 +222,30 @@
 	<script src="/metronic/assets/demo/default/custom/components/forms/widgets/bootstrap-markdown.js" type="text/javascript"></script>
 	<script src="/metronic/assets/demo/default/custom/components/forms/widgets/select2.js" type="text/javascript"></script>
 	<script src="/metronic/assets/demo/default/custom/components/forms/widgets/bootstrap-datepicker.js" type="text/javascript"></script>
-	<script src="/metronic/assets/demo/default/custom/components/forms/validation/form-controls.js" type="text/javascript"></script>
+	{{-- <script src="/metronic/assets/demo/default/custom/components/forms/validation/form-controls.js" type="text/javascript"></script> --}}
 	<script src="/metronic/assets/demo/default/custom/components/forms/validation/messages_es_AR.js" type="text/javascript"></script>
+	<script>
+		$.fn.datepicker.dates['es'] = {
+		    days: ["Dom", "Lunes", "Martes", "Wednesday", "Thursday", "Friday", "Saturday"],
+		    daysShort: ["Dom", "Lun", "Mar", "Wed", "Thu", "Fri", "Sat"],
+		    daysMin: ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"],
+		    months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+		    monthsShort: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+		    today: "Today",
+		    clear: "Clear",
+		    format: "mm/dd/yyyy",
+		    titleFormat: "MM yyyy", /* Leverages same syntax as 'format' */
+		    weekStart: 0
+		};
+		$('#m_datepicker_2').datepicker({
+			todayHighlight: false,
+			clearBtn:true,
+			keepEmptyValues:true,
+			defaultViewDate: null,
+			language:'es'
 
+		});
+	</script>
 
 
 @endpush

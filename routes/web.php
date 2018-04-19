@@ -1,5 +1,6 @@
 <?php
 Route::get('/', 'HomeController@home')->name('inicio')->middleware('auth');
+Route::get('blog/{post}  ', 'BlogController@show')->name('front.show')->middleware('auth');
 
 // ADMINISTRACIÓN
 Route::group([

@@ -8,16 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="frontTheme/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/frontTheme/css/bootstrap.min.css">
 
     <!-- FontAwesome CSS -->
-    <link rel="stylesheet" href="frontTheme/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/frontTheme/css/font-awesome.min.css">
 
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="frontTheme/css/swiper.min.css">
+    <link rel="stylesheet" href="/frontTheme/css/swiper.min.css">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="frontTheme/style.css">
+    <link rel="stylesheet" href="/frontTheme/style.css">
 </head>
 <body>
 <div class="outer-container">
@@ -89,38 +89,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <div class="swiper-container hero-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="hero-content flex justify-content-center align-items-center flex-column">
-                                <img src="frontTheme/images/slider.jpg" alt="">
-                            </div><!-- .hero-content -->
-                        </div><!-- .swiper-slide -->
-
-                        <div class="swiper-slide">
-                            <div class="hero-content flex justify-content-center align-items-center flex-column">
-                                <img src="frontTheme/images/slider.jpg" alt="">
-                            </div><!-- .hero-content -->
-                        </div><!-- .swiper-slide -->
-
-                        <div class="swiper-slide">
-                            <div class="hero-content flex justify-content-center align-items-center flex-column">
-                                <img src="frontTheme/images/slider.jpg" alt="">
-                            </div><!-- .hero-content -->
-                        </div><!-- .swiper-slide -->
-                    </div><!-- .swiper-wrapper -->
-
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next flex justify-content-center align-items-center">
-                        <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 44"><path d="M27,22L27,22L5,44l-2.1-2.1L22.8,22L2.9,2.1L5,0L27,22L27,22z"></path></svg></span>
-                    </div>
-                    <div class="swiper-button-prev flex justify-content-center align-items-center">
-                        <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 44"><path d="M0,22L22,0l2.1,2.1L4.2,22l19.9,19.9L22,44L0,22L0,22L0,22z"></path></svg></span>
-                    </div>
-                </div><!-- .swiper-container -->
+                @yield('banner')
             </div><!-- .col -->
         </div><!-- .row -->
 
@@ -129,7 +98,7 @@
                 <div class="offset-lg-9 col-12 col-lg-3">
                     <a href="#">
                         <div class="yt-subscribe">
-                            <img src="frontTheme/images/yt-subscribe.png" alt="Youtube Subscribe">
+                            <img src="/frontTheme/images/yt-subscribe.png" alt="Youtube Subscribe">
                             <h3>Subscribe</h3>
                             <p>To my Youtube Channel</p>
                         </div><!-- .yt-subscribe -->
@@ -156,115 +125,7 @@
                 </div>
             </div><!-- .col -->
 
-            <div class="col-12 col-lg-3">
-                <div class="sidebar">
-                    <div class="about-me">
-                        <h2>I’m Amelia Smith</h2>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem a consequat. Proin nec interdum sem. Quisque in porttitor magna.</p>
-                    </div><!-- .about-me -->
-
-                    <div class="recent-posts">
-                        <div class="recent-post-wrap">
-                            <figure>
-                                <img src="frontTheme/images/thumb-1.jpg" alt="">
-                            </figure>
-
-                            <header class="entry-header">
-                                <div class="posted-date">
-                                    January 30, 2018
-                                </div><!-- .entry-header -->
-
-                                <h3><a href="#">My fall in love story</a></h3>
-
-                                <div class="tags-links">
-                                    <a href="#">#winter</a>
-                                    <a href="#">#love</a>
-                                    <a href="#">#snow</a>
-                                    <a href="#">#january</a>
-                                </div><!-- .tags-links -->
-                            </header><!-- .entry-header -->
-                        </div><!-- .recent-post-wrap -->
-
-                        <div class="recent-post-wrap">
-                            <figure>
-                                <img src="frontTheme/images/thumb-2.jpg" alt="">
-                            </figure>
-
-                            <header class="entry-header">
-                                <div class="posted-date">
-                                    January 30, 2018
-                                </div><!-- .entry-header -->
-
-                                <h3><a href="#">My fall in love story</a></h3>
-
-                                <div class="tags-links">
-                                    <a href="#">#winter</a>
-                                    <a href="#">#love</a>
-                                    <a href="#">#snow</a>
-                                    <a href="#">#january</a>
-                                </div><!-- .tags-links -->
-                            </header><!-- .entry-header -->
-                        </div><!-- .recent-post-wrap -->
-
-                        <div class="recent-post-wrap">
-                            <figure>
-                                <img src="frontTheme/images/thumb-3.jpg" alt="">
-                            </figure>
-
-                            <header class="entry-header">
-                                <div class="posted-date">
-                                    January 30, 2018
-                                </div><!-- .entry-header -->
-
-                                <h3><a href="#">My fall in love story</a></h3>
-
-                                <div class="tags-links">
-                                    <a href="#">#winter</a>
-                                    <a href="#">#love</a>
-                                    <a href="#">#snow</a>
-                                    <a href="#">#january</a>
-                                </div><!-- .tags-links -->
-                            </header><!-- .entry-header -->
-                        </div><!-- .recent-post-wrap -->
-
-                        <div class="recent-post-wrap">
-                            <figure>
-                                <img src="frontTheme/images/thumb-4.jpg" alt="">
-                            </figure>
-
-                            <header class="entry-header">
-                                <div class="posted-date">
-                                    January 30, 2018
-                                </div><!-- .entry-header -->
-
-                                <h3><a href="#">My fall in love story</a></h3>
-
-                                <div class="tags-links">
-                                    <a href="#">#winter</a>
-                                    <a href="#">#love</a>
-                                    <a href="#">#snow</a>
-                                    <a href="#">#january</a>
-                                </div><!-- .tags-links -->
-                            </header><!-- .entry-header -->
-                        </div><!-- .recent-post-wrap -->
-                    </div><!-- .recent-posts -->
-
-                    <div class="tags-list">
-                        <a href="#">Music</a>
-                        <a href="#">Love</a>
-                        <a href="#">Car</a>
-                        <a href="#">Stories</a>
-                        <a href="#">Photography</a>
-                        <a href="#">Music</a>
-                        <a href="#">Car</a>
-                    </div><!-- .tags-list -->
-
-                    <div class="sidebar-ads">
-                        <img src="frontTheme/images/ads.jpg" alt="ads">
-                    </div>
-                </div><!-- .sidebar -->
-            </div><!-- .col -->
+            
         </div><!-- .row -->
     </div><!-- .container -->
 </div><!-- .outer-container -->
@@ -276,7 +137,7 @@
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="footer-post-wrap flex justify-content-between">
                         <figure>
-                            <a href="#"><img src="frontTheme/images/foot-1.jpg" alt=""></a>
+                            <a href="#"><img src="/frontTheme/images/foot-1.jpg" alt=""></a>
                         </figure>
 
                         <div class="footer-post-cont flex flex-column justify-content-between">
@@ -305,7 +166,7 @@
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="footer-post-wrap flex justify-content-between">
                         <figure>
-                            <a href="#"><img src="frontTheme/images/foot-2.jpg" alt=""></a>
+                            <a href="#"><img src="/frontTheme/images/foot-2.jpg" alt=""></a>
                         </figure>
 
                         <div class="footer-post-cont flex flex-column justify-content-between">
@@ -334,7 +195,7 @@
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="footer-post-wrap flex justify-content-between">
                         <figure>
-                            <a href="#"><img src="frontTheme/images/foot-3.jpg" alt=""></a>
+                            <a href="#"><img src="/frontTheme/images/foot-3.jpg" alt=""></a>
                         </figure>
 
                         <div class="footer-post-cont flex flex-column justify-content-between">
@@ -363,7 +224,7 @@
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="footer-post-wrap flex justify-content-between">
                         <figure>
-                            <a href="#"><img src="frontTheme/images/foot-4.jpg" alt=""></a>
+                            <a href="#"><img src="/frontTheme/images/foot-4.jpg" alt=""></a>
                         </figure>
 
                         <div class="footer-post-cont flex flex-column justify-content-between">
@@ -396,31 +257,31 @@
         <div class="row">
             <div class="footer-instagram flex flex-wrap flex-lg-nowrap">
                 <figure>
-                    <a href="#"><img src="frontTheme/images/a.jpg" alt=""></a>
+                    <a href="#"><img src="/frontTheme/images/a.jpg" alt=""></a>
                 </figure>
 
                 <figure>
-                    <a href="#"><img src="frontTheme/images/b.jpg" alt=""></a>
+                    <a href="#"><img src="/frontTheme/images/b.jpg" alt=""></a>
                 </figure>
 
                 <figure>
-                    <a href="#"><img src="frontTheme/images/c.jpg" alt=""></a>
+                    <a href="#"><img src="/frontTheme/images/c.jpg" alt=""></a>
                 </figure>
 
                 <figure>
-                        <a href="#"><img src="frontTheme/images/d.jpg" alt=""></a>
+                        <a href="#"><img src="/frontTheme/images/d.jpg" alt=""></a>
                 </figure>
 
                 <figure>
-                    <a href="#"><img src="frontTheme/images/e.jpg" alt=""></a>
+                    <a href="#"><img src="/frontTheme/images/e.jpg" alt=""></a>
                 </figure>
 
                 <figure>
-                    <a href="#"><img src="frontTheme/images/f.jpg" alt=""></a>
+                    <a href="#"><img src="/frontTheme/images/f.jpg" alt=""></a>
                 </figure>
 
                 <figure>
-                    <a href="#"><img src="frontTheme/images/g.jpg" alt=""></a>
+                    <a href="#"><img src="/frontTheme/images/g.jpg" alt=""></a>
                 </figure>
             </div>
         </div><!-- .row -->
@@ -456,9 +317,9 @@
     </div><!-- .footer-bar -->
 </footer><!-- .sit-footer -->
 
-<script type='text/javascript' src='frontTheme/js/jquery.js'></script>
-<script type='text/javascript' src='frontTheme/js/swiper.min.js'></script>
-<script type='text/javascript' src='frontTheme/js/custom.js'></script>
+<script type='text/javascript' src='/frontTheme/js/jquery.js'></script>
+<script type='text/javascript' src='/frontTheme/js/swiper.min.js'></script>
+<script type='text/javascript' src='/frontTheme/js/custom.js'></script>
 
 </body>
 </html>
